@@ -104,21 +104,25 @@ body {
 .recipe-icon {
   display: inline-block;
   float: left;
+  padding: 15px 15px;
 }
 
 .dice-icon{
   display: inline-block;
   float: left;
+  padding: 15px 15px;
 }
 
 .weather-icon{
   display: inline-block;
   float: left;
+  padding: 15px 15px;
 }
 
 .medicine-icon{
   display: inline-block;
   float: left;
+  padding: 15px 15px;
 }
 
 
