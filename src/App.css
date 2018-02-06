@@ -90,11 +90,36 @@ body {
   display: inline-block;
 }
 
+.mainproject-container{
+  color: rgba(255,255,255,.8);
+  display: inline-flex;
+  background-color: rgba(0,0,0,.5);
+}
 
+.mainproject-container a {
+  color: orange;
+  text-decoration: none;
+}
 
+.recipe-icon {
+  display: inline-block;
+  float: left;
+}
 
+.dice-icon{
+  display: inline-block;
+  float: left;
+}
 
+.weather-icon{
+  display: inline-block;
+  float: left;
+}
 
+.medicine-icon{
+  display: inline-block;
+  float: left;
+}
 
 
 

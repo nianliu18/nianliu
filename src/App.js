@@ -4,6 +4,7 @@ import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import NavBar from './components/NavBar';
 import About from './components/About';
 import Experience from './components/Experience';
+import Projects from './components/Projects';
 
 class App extends Component {
   render() {
@@ -18,6 +19,8 @@ class App extends Component {
               render={props => (<About/>)} />
               <Route path="/experience"
               render={props => (<Experience/>)} />
+              <Route path="/projects"
+              render={props => (<Projects/>)}/>
             </Switch>
         </div>
       </BrowserRouter>
