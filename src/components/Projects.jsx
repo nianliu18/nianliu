@@ -18,7 +18,7 @@ const Projects = (props) => {
           <img src="https://i.imgur.com/Ci28sm0.png" className="weather-icon"/>
           The weather app is a frontend web app designed using React and fetches an weather information from an API at openweathermap.org. My goal was to make this frontend web app as simple as possible and later get together with another fellow developer and UX designer to improve the overal user experience and design of my project.
         </p>
-        <a href="nianssimpleweatherapp.bitballoon.com"> Click to Weather App </a>
+        <a href="http://nianssimpleweatherapp.bitballoon.com/"> Click to Weather App </a>
       </div>
       <div>
         <h1>Home Remedies Blog</h1>
@@ -34,7 +34,7 @@ const Projects = (props) => {
           <img src="https://i.imgur.com/V06mCA9.png" className="dice-icon"/>
           This was one of my first projects where I was still using JQuery and Vanilla Javascript to make websites and browser games. Dice Poker is a game I play when I am out with friends drinking. Just like poker users roll their dice and whoever gets the highest poker combination wins. I had a lot of fun with this project because it was independent and it really got me thinking logically on the winning conditions of the game and how I can command my browser game to know when the game is over or not.
         </p>
-        <a href="dice-poker-nian.bitballoon.com"> Click to Game </a>
+        <a href="http://dice-poker-nian.bitballoon.com/"> Click to Game </a>
       </div>
     </div>
   );
