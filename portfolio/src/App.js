@@ -3,6 +3,7 @@ import './App.css';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import NavBar from './components/NavBar';
 import About from './components/About';
+import Experience from './components/Experience';
 
 class App extends Component {
   render() {
@@ -14,7 +15,9 @@ class App extends Component {
           </div>
             <Switch>
               <Route path="/" exact
-              component={About} />
+              render={props => (<About/>)} />
+              <Route path="/experience"
+              render={props => (<Experience/>)} />
             </Switch>
         </div>
       </BrowserRouter>

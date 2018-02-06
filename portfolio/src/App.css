@@ -1,6 +1,9 @@
 body {
   background-image: url("./images/nightscape.png");
   background-size: cover;
+  /*font-family: 'Open Sans Condensed', sans-serif;*/
+  /*font-family: 'Titillium Web', sans-serif;*/
+  font-family: 'Roboto', sans-serif;
 }
 .nav-container{
   background-color: black;
@@ -29,16 +32,73 @@ body {
 
 .about-container {
   text-align: center;
-  height: 100%;
   color: white;
-  background-color: rgba(0,0,0,.5);
   display: block;
 }
 
 .home-title {
   font-size: 40px;
+  display: block;
 }
 
 .home-p {
-  display:block;
+  display:inline-block;
+  height: 100%;
+  background-color: rgba(0,0,0,.5);
+  line-height: 1.5;
+  width: 70%;
+  padding: 20px 10px;
+  text-indent: 50px;
+  text-align: center;
 }
+
+.profilepic {
+  float: left;
+  display: inline-block;
+}
+
+
+.dev-icon {
+  float: left;
+  display: inline-block;
+}
+
+.main-container{
+  display:inline-block;
+  height: 100%;
+  background-color: rgba(0,0,0,.5);
+  line-height: 1.5;
+  width: 70%;
+  padding: 20px 10px;
+  text-indent: 50px;
+  text-align: center;
+  margin: auto;
+  border: 3px solid green;
+  padding: 10px;
+}
+
+.verizon-icon{
+  float: left;
+  display: inline-block;
+}
+
+
+.main-container {
+  color: rgba(255,255,255,.8);
+  background-color: rgba(0,0,0,.5);
+  width: 70%;
+  display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
