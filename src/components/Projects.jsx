@@ -8,7 +8,7 @@ const Projects = (props) => {
         <h1> Recipe App </h1>
         <p>
           <img src="https://i.imgur.com/Li5wRAS.png" className="recipe-icon"/>
-          What inspired me to to create this app was my passion for cooking. I wanted to deepen my understanding in backend Express/NodeJs and PSQL databases and also create something that I would be able to use when I want write down recipes. This app fetches information from an API called Edamam which is free and has thousands of recipes to choose from. It gives users the ability to see, create, edit and delete recipes within their app.
+          What inspired me to to create this app was my passion for cooking. I wanted to deepen my understanding in backend Express/NodeJs and PSQL databases and also create something that I would be able to use when I want write down recipes. This app fetches API information from a server called Edamam which is free and has thousands of recipes to choose from. It gives users the ability to see, create, edit and delete recipes within their app.
         <a href="https://git.generalassemb.ly/nianliu18/project-2.git"> Click to GitHub </a>
         </p>
       </div>
@@ -16,7 +16,7 @@ const Projects = (props) => {
         <h1>Simple Weather App</h1>
         <p>
           <img src="https://i.imgur.com/Ci28sm0.png" className="weather-icon"/>
-          The weather app is a frontend web app designed using React and fetches an weather information from an API at openweathermap.org. My goal was to make this frontend web app as simple as possible and later get together with another fellow developer and UX designer to improve the overal user experience and design of my project.
+          The weather app is a frontend web app designed using React and fetches from a weather API coming from openweathermap.org. My goal was to make this frontend web app as simple as possible and later get together with another fellow developer and UX designer to improve the overal user experience and design of my project.
         </p>
         <a href="http://nianssimpleweatherapp.bitballoon.com/"> Click to Weather App </a>
       </div>
