@@ -6,7 +6,7 @@ const Projects = (props) => {
     <div className="mainproject-container">
       <div className="item-a">
         <h1> Inventory Manager </h1>
-        <img className="inventory-photo" src={ require('../images/inventory-image.png')} />
+        <img className="inventory-photo" src={ require('../images/inventory-image.png')} alt="inventory" />
         <div className="item-a1">
           An inventory app allowing users to manage/track inventory expenses, visualize live inventory stock, as well as restock items and at the same time manage sales. This project was developed using backend PSQL, with CSS grid and React frontend.
         </div>

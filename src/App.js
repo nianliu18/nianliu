@@ -8,6 +8,8 @@ import Projects from './components/Projects';
 
 class App extends Component {
   render() {
+    const route = window.origin
+    console.log(route, 'this is your route')
     return (
       <BrowserRouter>
         <div className="App">
@@ -21,6 +23,8 @@ class App extends Component {
               render={props => (<Experience/>)} />
               <Route path="/projects"
               render={props => (<Projects/>)}/>
+              <Route path="/*"
+              render={route} />
             </Switch>
         </div>
       </BrowserRouter>
