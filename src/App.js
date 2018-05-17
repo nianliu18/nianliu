@@ -24,7 +24,7 @@ class App extends Component {
               <Route path="/projects"
               render={props => (<Projects/>)}/>
               <Route path="/*"
-              render={route} />
+              render={props=> (<About/>)} />
             </Switch>
         </div>
       </BrowserRouter>
