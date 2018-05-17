@@ -5,6 +5,12 @@ body {
   /*font-family: 'Titillium Web', sans-serif;*/
   font-family: 'Roboto', sans-serif;
 }
+
+.inventory-photo {
+  height: 184px;
+  width: 320px;
+}
+
 .nav-container{
   background-color: black;
 }
@@ -92,8 +98,17 @@ body {
 
 .mainproject-container{
   color: rgba(255,255,255,.8);
-  display: inline-flex;
   background-color: rgba(0,0,0,.5);
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+  "item-a, item-b"
+  "item-a1 item-b1"
+  "item-c item d"
+  "item-c1 item-d1";
+  grid-gap: 50px;
+  align-items: center;
 }
 
 .mainproject-container a {
