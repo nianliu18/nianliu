@@ -116,10 +116,12 @@ body {
   text-decoration: none;
 }
 
-.recipe-icon {
+.pocket-icon {
   display: inline-block;
   float: left;
   padding: 15px 15px;
+  height: 182px;
+  width: 320px;
 }
 
 .dice-icon{

@@ -8,8 +8,8 @@ import Projects from './components/Projects';
 
 class App extends Component {
   render() {
-    const route = window.origin
-    console.log(route, 'this is your route')
+    // const route = window.location.href
+    // console.log(route, 'this is your route')
     return (
       <BrowserRouter>
         <div className="App">

@@ -13,11 +13,11 @@ const Projects = (props) => {
         <a href="https://github.com/WindCloud2018/inventory-manager"> Click to GitHub </a>
       </div>
       <div className="item-b">
-        <h1> Recipe App </h1>
-        <img src="https://i.imgur.com/Li5wRAS.png" alt="picture" className="recipe-icon"/>
+        <h1> Pocket App </h1>
+        <img className="pocket-icon" src={ require('../images/pocket-image.png')} alt="picture" />
         <div className="item-b1">
-          What inspired me to to create this app was my passion for cooking. I wanted to deepen my understanding in backend Express/NodeJs and PSQL databases and also create something that I would be able to use when I want write down recipes. This app fetches API information from a server called Edamam which is free and has thousands of recipes to choose from. It gives users the ability to see, create, edit and delete recipes within their app.
-        <a href="https://git.generalassemb.ly/nianliu18/project-2.git"> Click to GitHub </a>
+          What inspired me to to create this app was my passion for budgeting. I wanted to deepen my understanding in backend Express/NodeJs, PSQL databases and with React.js frontend. I also wanted create something that I would be able to use when I make expenses day to day. This app alllows users to add expenses base on category and date as well as render that organized information through a pie chart and bar chart.
+        <a href="https://github.com/WindCloud2018/pocket"> Click to GitHub </a>
         </div>
       </div>
       <div className="item-c">
